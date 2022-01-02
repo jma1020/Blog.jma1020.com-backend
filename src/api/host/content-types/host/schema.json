@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hosts",
+  "info": {
+    "singularName": "host",
+    "pluralName": "hosts",
+    "displayName": "sksk",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "Contents": {
+      "type": "text"
+    },
+    "Profile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}
